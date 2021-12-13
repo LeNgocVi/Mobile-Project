@@ -8,6 +8,7 @@ import androidx.compose.foundation.lazy.LazyRow
 import androidx.compose.foundation.shape.RoundedCornerShape
 import androidx.compose.material.*
 import androidx.compose.material.icons.Icons
+import androidx.compose.material.icons.filled.Add
 import androidx.compose.material.icons.filled.ArrowBack
 import androidx.compose.material.icons.filled.Favorite
 import androidx.compose.material.icons.filled.Home
@@ -29,8 +30,10 @@ import com.example.pnvshare.ui.theme.DeepBlue
 import com.example.pnvshare.ui.theme.LightBlue
 import com.example.pnvshare.ui.theme.LightPurple
 
+
 @Composable
 fun HomePage(navController: NavController){
+
     Scaffold(
         topBar = {
             TopAppBar(
@@ -73,8 +76,11 @@ fun HomePage(navController: NavController){
                     Text("Trang chủ", fontSize = 14.sp, color = Color.White, maxLines = 1)
                 }
                 Spacer(modifier = Modifier.width(5.dp))
+
                 Button(
-                    onClick = {},
+                    onClick = {
+
+                    },
                     Modifier
                         .height(53.dp)
                         .width(110.dp),

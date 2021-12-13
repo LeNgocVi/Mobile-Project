@@ -217,7 +217,7 @@ fun QuanAo(
             onClick = {}
         ){
             Text("Quần áo")
-            Image(painter = painterResource(id = R.drawable.thucung), contentDescription = null)
+            Image(painter = painterResource(id = R.drawable.quanao), contentDescription = null)
         }
     }
 
